@@ -1,5 +1,5 @@
 /* Aciklama Satırı: ctrl + ö */
-/*  */
+/* 
 body {
     background-color: lightgreen;
     color: blueviolet;
@@ -20,5 +20,45 @@ p {
 
 ul {
     color: white
-    /* eğer bu white olduğunu belirtmezsek body içindeki color renginde olacaktı. */
+    /* eğer bu white olduğunu belirtmezsek body içindeki color renginde olacaktı.
+}
+*/
+
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+h1, h2, h3, h4, h5, h5 {
+    color: #996f6f
+}
+
+h1{
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#first-article {
+    font-size: 25px;
+}
+/* bir tane id vardır. birden fazla class olabilir. */
+
+.text-blue {
+    color: blue;
+}
+.text-red {
+    color: red;
+}
+
+.fs-small {
+    font-size: 14px;
+}
+
+.fs-20 { /*fs-medium da denir*/
+    font-size: 20px;
+}
+
+.fs-large {
+    font-size: 30px;
 }
