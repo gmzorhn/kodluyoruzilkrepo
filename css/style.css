@@ -1,0 +1,24 @@
+/* Aciklama Satırı: ctrl + ö */
+
+body {
+    background-color: lightgreen;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+h2 {
+        color: blue;
+        font-size: 40px; 
+        text-transform: uppercase; 
+    }
+p {
+        color: brown;
+        font-size: 20px;
+        font-family: "Fantasy";
+        font-style: italic;
+}
+
+ul {
+    color: white
+    /* eğer bu white olduğunu belirtmezsek body içindeki color renginde olacaktı. */
+}
