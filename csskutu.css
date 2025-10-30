@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+ }  /* bu kısmı 0 yaptığında ekrana tam yanaşır. tarayıcıyla arasını sıfırla demektir.   */
+
+
+.container {
+    width: 1000px;
+    /* margin: 0 auto 0 auto; üst ve alt boşluk 0, sağ ve sol otomatik. bunu ya da altaki iki kodu yapabiliriz aynı şey. */
+
+    /*  margin-left: auto; otomatik olarak ortalar. */
+    /* margin-right: auto; otomatik olarak ortalar. */
+    margin: 50px auto 0; /* üstten 50 px boşluk bırakır, sağ ve soldan otomatik ortalar. */
+}
+
+.leftbar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: #d3b2b2;
+    border-radius: 10px; /* kutuların köşelerini yuvarlatır. */
+}
+
+.clear {
+    clear: both; /* float ile yan yana dizilen kutuların altına geçmek için kullanılır. */
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    /* margin: 10px; demek aşağıdaki 4 kod ile aynı şeye denk gelir.*/
+    margin-right: 10px;  /* mr10 diyebilirsin. Sağdan boşluk. */
+    margin-left: 10px;  /* ml10 diyebilirsin. Soldan boşluk. */
+    margin-top: 10px;  /* mt10 diyebilirsin. Kutunun üstünden boşluk bırak. */ 
+    margin-bottom: 10px;  /* mb10 diyebilirsin.Kutunun altındaki boşluk. */
+    float: left; /* kutuları yan yana dizmek için kullanılır. */
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+/* KUTU MODELLERİ 
+Padding: kutunun iç boşluğu
+Margin: kutunun dış boşluğu
+Border: kutunun çerçevesi
+
+margin-left: Soldan boşluk bırakır.
+margin-top: Yukarıdan boşluk bırakır.
+margin-bottom: Aşağıdan boşluk bırakır.
+margin-right: Sağdan boşluk bırakır.
+
+margin: 100px 150px 60px 50px;
+
+Yukarıdan 100px, sağdan 150px, aşağıdan 60px, soldan 50px boşluk bırakır.
+
+*/
