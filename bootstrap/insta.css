@@ -1,0 +1,57 @@
+body {
+    padding-top: 54px;
+    background-color: #fafafa;
+}
+.navbar {
+    height: 54px;
+    background-color: #ffffff;
+}
+.logo {
+    margin-left: 192px;
+}
+.search-input::placeholder {
+    font-size: 14px;
+    padding-left: 20px;
+    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/search--v1.png');
+    background-size: 12px;
+    background-position: left-center;
+    background-repeat: no-repeat;
+}
+
+.middlearea {
+    height: 120px; /* Görsellik için biraz kıstım */
+    max-height: 200px !important;
+    overflow-x: scroll; /* Yan yana taşarsa kaydır */
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex; /* İsimler resimlerin altına gelsin diye */
+    align-items: center;
+}
+
+/* Yönerge: Sağ Panel Sticky ve Border Olmamalı */
+.stickysidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 74px; /* Navbar'dan (54px) + 20px boşluk */
+}
+
+.rightpanel {
+    background-color: #fff;
+    border: none !important; /* Yönerge: Kenarlık olmamalı */
+}
+
+/* Hikaye resimleri için stil */
+.story-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #e1306c; /* Instagram halka rengi */
+    padding: 2px;
+}
+
+/* Responsive düzeltme: Mobilde o devasa 192px margin'i iptal etmeliyiz yoksa site bozulur */
+@media (max-width: 768px) {
+    .logo { margin-left: 0; }
+    body { padding-top: 60px; }
+}
